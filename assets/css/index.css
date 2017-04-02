@@ -1,0 +1,88 @@
+.navbar{
+	border: none;!important;
+}
+#tables{
+	background-color: #000;
+	height: 44px;
+	width: 100%;
+}
+#tables>ul{
+	position: relative;
+	height: 100%;
+	width: 320px;
+	margin: 0 auto;
+	padding: 0;
+	/*margin: 0;*/
+}
+#tables>ul>li{
+	width: 20%;
+	height: 100%;	
+	float: left;
+	list-style: none;
+	line-height: 44px;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	
+}
+#tables>ul>li span{
+	height: 100%;
+	width: 100%;
+	/*border-bottom: solid 1px #555;*/
+}
+#tables>ul>li a{
+	text-decoration: none;
+	height: 100%;
+	width: 100%;
+	line-height: 44px;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+}
+#tables>ul>li:hover{
+	background-color: #555;
+}
+
+#tables>ul>li>ul{
+	display: none;
+	position: absolute;
+	padding: 0;
+	top: 44px;
+	left: 0;
+	height: 150px;
+	width: 320px;
+	z-index: 1000;
+	background-color: rgba(0,0,0,0.5);
+}
+.block{
+	display: none;
+}
+
+#tables>ul>li>ul li{
+	float: left;
+	list-style: none;
+	width: 25%;
+	height: 50px;
+	/*border: solid 1px white;*/
+	line-height: 50px;
+	color: white;
+	font-size: 16px;
+}
+#tables>ul>li>ul li:hover{
+	background-color: #666;
+}
+.footer{
+	width: 100%;
+	height: 100px;
+	background-color:#000;
+}
+#copy{
+	display: block;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	margin: 0 auto;
+	font-family: "Times New Roman";
+	font-size: 20px;
+	color: #fff;
+}
